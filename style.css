@@ -158,18 +158,12 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-  /* width: 400px; */
-  /* height: 1000px; */
-}
-
 /* PROFILE SECTION */
 
 #profile {
   display: flex;
-  justify-content: center;
-  gap: 10rem;
+  justify-content: space-evenly;
+  align-items: center;
   height: 80vh;
   min-height: 400px;
 }
@@ -299,13 +293,13 @@ section {
 }
 
 .details-container {
-  padding: 2rem 0rem;
-  flex: 1;
+  padding: 1.3rem 0rem;
+  flex: 2;
   background: white;
   border-radius: 2rem;
   border: 0.1rem solid rgb(163, 163, 163);
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -322,14 +316,9 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
-}
-
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  gap: 3rem;
+  display: flex;
+  margin-top: 10px;
 }
 
 /* EXPERIENCE SECTION */
@@ -397,7 +386,7 @@ article .icon {
 }
 .project-img1 {
   border-radius: 1rem;
-  height: 200px;
+  height: 160px;
   width: 280px;
 }
 
